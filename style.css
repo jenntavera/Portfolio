@@ -1,0 +1,28 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    background-color: #dee2ff;
+}
+
+.navbar-collapse {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    min-height: 450px;
+}
+
+.habilidades i {
+    font-size: 2.5rem;
+    color: #8e9aaf;
+    padding: 8px 19px;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}

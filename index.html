@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jenn Tavera">
+    <!-- Título -->
+    <title>Jenn Tavera | Full Stack Dev</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/icon.svg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <body>
+      <!-- Barra de navegación -->
+      <nav class="navbar navbar-expand-md data-bs-theme="light"">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+              <img src="images/logo.svg" width="110" alt="Logo">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#habilidades">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experiencia">Experiencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Sección Hero -->
+      <main class="container pt-5">
+        <!-- Inicio -->
+        <div id="inicio" class="row align-items-center justify-content-center">
+          <div class="col-md-5 text-center">
+            <h1 class="display-5 fw-bold">Hola, <span style="color: #b392ac;">soy Jenn Tavera</span></h1>
+            <p class="lead my-3" style="color: #778193;">Desarrolladora Full Stack</p>
+            <p class="my-3"><strong style="color: #735d78;">Ingeniera de Software</strong>, especializada en el desarrollo de aplicaciones web. Competente en la aplicación de principios de <strong style="color: #735d78;">programación orientada a objetos y estructuras de datos</strong> para resolver problemas complejps.</p>
+            <a type="button" class="btn btn-primary" href="mailto:jennifer.martineztv@gmail.com">¡Contáctame!</a>
+          </div>
+          <div class="col-md-4 mt-4 text-center">
+            <img src="./images/jenn.JPEG" class="img-fluid rounded-circle" alt="">
+          </div>
+        </div>
+
+        <!-- Habilidades -->
+        <section id="habilidades" class="habilidades container my-5">
+          <h2 class="pb-2 border-bottom mb-4">Habilidades</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
+            
+            <!-- Frontend -->
+            <div class="col">
+              <div class="card h-100">
+                <i class="bi bi-filetype-js"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Front-end</h5>
+                  <p class="card-text">Creación de interfaces de usuario interactivas, responsivas y funcionales.</p>
+                  <span class="badge text-bg-primary">JavaScript</span>
+                  <span class="badge text-bg-primary">HTML</span>
+                  <span class="badge text-bg-primary">CSS</span>
+                  <span class="badge text-bg-primary">Bootstrap</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Backend -->
+            <div class="col">
+              <div class="card h-100">
+                <i class="bi bi-filetype-java"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Back-end</h5>
+                  <p class="card-text">Desarrollo de APIs y lógica de negocio para gestionar operaciones CRUD.</p>
+                  <span class="badge text-bg-primary">Java</span>
+                  <span class="badge text-bg-primary">Spring Boot</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bases de datos -->
+            <div class="col">
+              <div class="card h-100">
+                <i class="bi bi-database"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Bases de datos</h5>
+                  <p class="card-text">Modelado, gestión y consultas en bases de datos relacionales y NoSQL.</p>
+                  <span class="badge text-bg-primary">MySQL</span>
+                  <span class="badge text-bg-primary">PostgreSQL</span>
+                  <span class="badge text-bg-primary">DynamoDB</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+
+        <!-- Experiencia -->
+        <section id="experiencia" class="habilidades container my-5">
+          <h2 class="pb-2 border-bottom mb-4">Experiencia</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-">
+              <div class="col-md-12">
+                <div class="card">
+                  <div class="card-header">
+                    CIDESI
+                  </div>
+                  <div class="card-body">
+                    <figure>
+                      <blockquote class="blockquote">
+                        <p>Pasantía de Ingeniería de Software</p>
+                      </blockquote>
+                      <figcaption class="blockquote-footer">
+                        <span>Desarrollé e implementé un sistema web para la trazabilidad y monitoreo de una línea de producción de biocerámicos, optimizando el seguimiento de procesos. 
+                        Construí una arquitectura Full Stack con Vue.js para el frontend y Serverless Framework en el backend, logrando un sistema escalable y eficiente.</span>
+                      </figcaption>
+                    </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section id="proyectos" class="proyectos container my-5">
+          <h2 class="pb-2 border-bottom mb-4">Proyectos</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+            <!-- Proyecto 1 -->
+            <div class="col">
+              <div class="card shadow-sm h-100">
+                <img
+                  class="card-img-top"
+                  src="images/printerest.png"
+                  alt="Vista previa del clon de Pinterest"
+                />
+                <div class="card-body d-flex flex-column">
+                  <p class="card-text">Clon de Pinterest</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a
+                        target="_blank"
+                        href="https://github.com/swengj/pinterest-clon"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        GitHub
+                      </a>
+                    </div>
+                    <small class="text-body-secondary">HTML, CSS, JS</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Proyecto 2 -->
+            <div class="col">
+              <div class="card shadow-sm h-100">
+                <img
+                  class="card-img-top"
+                  src="images/pedidos.png"
+                  alt="Vista previa del sistema de pedidos"
+                />
+                <div class="card-body d-flex flex-column">
+                  <p class="card-text">Sistema de Pedidos</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a
+                        target="_blank"
+                        href="https://github.com/jennmt/ordering-system"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        GitHub
+                      </a>
+                    </div>
+                    <small class="text-body-secondary">Laravel, React</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Proyecto 3 -->
+            <div class="col">
+              <div class="card shadow-sm h-100">
+                <img
+                  class="card-img-top"
+                  src="images/galeria.png"
+                  alt="Vista previa de la galería de imágenes"
+                />
+                <div class="card-body d-flex flex-column">
+                  <p class="card-text">Galería de Imágenes</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a
+                        target="_blank"
+                        href="https://github.com/jennmt/galeria-de-fotos"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        GitHub
+                      </a>
+                    </div>
+                    <small class="text-body-secondary">HTML, CSS, JS</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+      </main>
+      <footer class="text-center py-4" style="background-color: #dee2ff;">
+        <div class="container">
+          <!-- Nombre -->
+          <h3 class="fw-bold mb-0">Jenn Tavera</h3>
+          <p class="text-muted mb-2">Desarrolladora Full Stack</p>
+
+          <!-- Íconos sociales -->
+          <div class="d-flex justify-content-center gap-4 mb-3">
+            <a href="https://www.linkedin.com/in/jennifer-martineztavera/" target="_blank" class="text-dark fs-3">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/jenntavera" target="_blank" class="text-dark fs-3">
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+  </body>
+</html>
