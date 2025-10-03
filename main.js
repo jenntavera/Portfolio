@@ -4,7 +4,7 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('Desarrolladora Full Stack')
+typewriter.typeString('Desarrolladora Java Full Stack Jr.')
     .pauseFor(2500)
     .deleteAll()
     .typeString('¡Si lo puedes imaginar, lo puedes crear!')

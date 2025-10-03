@@ -2,8 +2,12 @@
     font-family: "Roboto", sans-serif;
 }
 
+body{
+    background-color: #fdf9fb;
+}
+
 .navbar {
-    background-color: #dee2ff;
+    background-color: #DDCAD9;
 }
 
 .navbar-collapse {
@@ -15,10 +19,42 @@
     min-height: 450px;
 }
 
-.habilidades i {
+.skills i {
     font-size: 2.5rem;
     color: #8e9aaf;
     padding: 8px 19px;
+}
+
+.category-title {
+    text-align: center;
+    font-weight: 600;
+    color: #735d78;
+}
+
+.skill-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    min-height: 140px;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.skill-icon {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.skill-name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #565264;
+    margin: 0;
 }
 
 @media screen and (max-width: 767px) {
